@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "remnants_of_the_past:ossuary",
+    "remnants_of_the_past:ossuary_desert",
+    "remnants_of_the_past:ossuary_snowy",
+    "remnants_of_the_past:ossuary_jungle",
+    "#remnants_of_the_past:libraries"
+  ]
+}

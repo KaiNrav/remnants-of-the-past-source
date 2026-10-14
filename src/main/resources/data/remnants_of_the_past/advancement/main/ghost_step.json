@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:mourner_hood"
+    },
+    "title": {
+      "translate": "advancements.remnants.ghost_step.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.ghost_step.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/master_smith"
+}

@@ -1,0 +1,14 @@
+{
+  "fallback": "remnants_of_the_past:ossuary/ends",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/warden_hall",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    }
+  ]
+}

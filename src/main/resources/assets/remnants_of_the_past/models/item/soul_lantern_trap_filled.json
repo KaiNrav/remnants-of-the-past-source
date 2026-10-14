@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "remnants_of_the_past:item/soul_lantern_trap_filled",
+  "layer1": "remnants_of_the_past:item/soul_lantern_trap_flame"
+ }
+}

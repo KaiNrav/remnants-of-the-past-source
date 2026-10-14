@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:spirit_altar"
+    },
+    "title": {
+      "translate": "advancements.remnants.circle.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.circle.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "altar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:spirit_altar"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/crowned"
+}

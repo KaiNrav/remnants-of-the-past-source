@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remnants_of_the_past:soul_astrolabe"
+      }
+    },
+    "has_condensed_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:condensed_soul"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_condensed_soul"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remnants_of_the_past:soul_astrolabe"
+    ]
+  }
+}

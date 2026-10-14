@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:warden",
+    "minecraft:elder_guardian",
+    "remnants_of_the_past:soul_king",
+    "remnants_of_the_past:crypt_warden",
+    "remnants_of_the_past:archivist",
+    "remnants_of_the_past:remnant",
+    "remnants_of_the_past:forgotten_remnant",
+    "remnants_of_the_past:archive_eye",
+    "remnants_of_the_past:decoy_echo",
+    "remnants_of_the_past:archive_page",
+    "remnants_of_the_past:carrion_crow"
+  ]
+}

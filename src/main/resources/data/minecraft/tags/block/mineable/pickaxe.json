@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "remnants_of_the_past:soul_bricks",
+    "remnants_of_the_past:soul_brick_stairs",
+    "remnants_of_the_past:soul_brick_slab",
+    "remnants_of_the_past:soul_brick_wall",
+    "remnants_of_the_past:chiseled_soul_bricks",
+    "remnants_of_the_past:soul_brazier",
+    "remnants_of_the_past:soul_pedestal",
+    "remnants_of_the_past:spirit_altar",
+    "remnants_of_the_past:soul_forge",
+    "remnants_of_the_past:soul_anchor",
+    "remnants_of_the_past:weathered_gravestone",
+    "remnants_of_the_past:reflecting_basin",
+    "remnants_of_the_past:soul_crucible",
+    "remnants_of_the_past:soul_hearth",
+    "remnants_of_the_past:soul_trough",
+    "remnants_of_the_past:soul_chimney",
+    "remnants_of_the_past:rest_stone",
+    "remnants_of_the_past:bell_of_rest",
+    "remnants_of_the_past:cracked_bell_of_rest",
+    "remnants_of_the_past:ossuary_gate",
+    "remnants_of_the_past:crypt_eye",
+    "remnants_of_the_past:memorial_projector",
+    "remnants_of_the_past:epitaph_niche",
+    "remnants_of_the_past:soul_astrolabe",
+    "remnants_of_the_past:focus_crystal"
+  ]
+}

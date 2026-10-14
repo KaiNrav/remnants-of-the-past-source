@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:phylactery"
+    },
+    "title": {
+      "translate": "advancements.remnants.phylactery.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.phylactery.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "phylactery": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:phylactery"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/regicide",
+  "rewards": {
+    "experience": 200
+  }
+}

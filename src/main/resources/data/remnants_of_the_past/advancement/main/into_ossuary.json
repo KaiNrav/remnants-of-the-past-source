@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:ossuary_urn"
+    },
+    "title": {
+      "translate": "advancements.remnants.into_ossuary.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.into_ossuary.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#remnants_of_the_past:ossuaries"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/root"
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_ward"
+    },
+    "title": {
+      "translate": "advancements.remnants.ward.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.ward.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_ward"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/condensed"
+}

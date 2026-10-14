@@ -1,0 +1,103 @@
+{
+  "combat.windup": {
+    "subtitle": "subtitles.remnants.combat.windup",
+    "sounds": [
+      "remnants_of_the_past:combat/windup_1",
+      "remnants_of_the_past:combat/windup_2"
+    ]
+  },
+  "combat.swing_heavy": {
+    "subtitle": "subtitles.remnants.combat.swing_heavy",
+    "sounds": [
+      "remnants_of_the_past:combat/swing_heavy_1",
+      "remnants_of_the_past:combat/swing_heavy_2",
+      "remnants_of_the_past:combat/swing_heavy_3"
+    ]
+  },
+  "combat.swing_light": {
+    "subtitle": "subtitles.remnants.combat.swing_light",
+    "sounds": [
+      "remnants_of_the_past:combat/swing_light_1",
+      "remnants_of_the_past:combat/swing_light_2",
+      "remnants_of_the_past:combat/swing_light_3"
+    ]
+  },
+  "combat.hit": {
+    "subtitle": "subtitles.remnants.combat.hit",
+    "sounds": [
+      "remnants_of_the_past:combat/hit_1",
+      "remnants_of_the_past:combat/hit_2",
+      "remnants_of_the_past:combat/hit_3"
+    ]
+  },
+  "combat.impact": {
+    "subtitle": "subtitles.remnants.combat.impact",
+    "sounds": [
+      "remnants_of_the_past:combat/impact_1",
+      "remnants_of_the_past:combat/impact_2",
+      "remnants_of_the_past:combat/impact_3"
+    ]
+  },
+  "combat.glint": {
+    "subtitle": "subtitles.remnants.combat.glint",
+    "sounds": [
+      "remnants_of_the_past:combat/glint_1",
+      "remnants_of_the_past:combat/glint_2"
+    ]
+  },
+  "entity.grave_mimic.snap": {
+    "subtitle": "subtitles.remnants.entity.grave_mimic.snap",
+    "sounds": [
+      "remnants_of_the_past:mimic/snap_1",
+      "remnants_of_the_past:mimic/snap_2",
+      "remnants_of_the_past:mimic/snap_3"
+    ]
+  },
+  "entity.keener.wail": {
+    "subtitle": "subtitles.remnants.entity.keener.wail",
+    "sounds": [
+      "remnants_of_the_past:keener/wail_1",
+      "remnants_of_the_past:keener/wail_2"
+    ]
+  },
+  "music.boss_king": {
+    "sounds": [
+      {
+        "name": "remnants_of_the_past:music/boss_king",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss_archivist": {
+    "sounds": [
+      {
+        "name": "remnants_of_the_past:music/boss_archivist",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss_warden": {
+    "sounds": [
+      {
+        "name": "remnants_of_the_past:music/boss_warden",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss_echo": {
+    "sounds": [
+      {
+        "name": "remnants_of_the_past:music/boss_echo",
+        "stream": true
+      }
+    ]
+  },
+  "music.night_of_memory": {
+    "sounds": [
+      {
+        "name": "remnants_of_the_past:music/night_of_memory",
+        "stream": true
+      }
+    ]
+  }
+}

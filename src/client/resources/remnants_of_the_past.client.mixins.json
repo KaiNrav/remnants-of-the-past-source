@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.remnants.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BossHealthOverlayAccessor",
+		"BossHealthOverlayMixin",
+		"GameRendererShakeMixin",
+		"MusicManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

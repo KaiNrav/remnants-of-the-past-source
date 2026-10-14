@@ -1,0 +1,9 @@
+{
+ "credit": "Remnants of the Past",
+ "parent": "minecraft:block/orientable",
+ "textures": {
+  "front": "remnants_of_the_past:block/crypt_eye_front",
+  "side": "minecraft:block/deepslate_bricks",
+  "top": "minecraft:block/deepslate_bricks"
+ }
+}

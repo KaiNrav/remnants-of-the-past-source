@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "CSC",
+    "BBB"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:tinted_glass"
+    },
+    "C": {
+      "item": "remnants_of_the_past:chiseled_soul_bricks"
+    },
+    "S": {
+      "item": "remnants_of_the_past:condensed_soul"
+    },
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:memorial_projector",
+    "count": 1
+  }
+}

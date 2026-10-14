@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sand",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "remnants_of_the_past:buried_grave",
+                  "properties": {
+                    "soil": "sand"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:red_sand",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "remnants_of_the_past:buried_grave",
+                  "properties": {
+                    "soil": "red_sand"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:gravel",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "remnants_of_the_past:buried_grave",
+                  "properties": {
+                    "soil": "gravel"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dirt"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "remnants_of_the_past:blocks/buried_grave"
+}

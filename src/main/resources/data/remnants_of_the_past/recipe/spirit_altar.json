@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FKF",
+    "BOB",
+    "BBB"
+  ],
+  "key": {
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    },
+    "K": {
+      "item": "remnants_of_the_past:remnant_crown"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:spirit_altar",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cube_all",
+ "textures": {
+  "all": "remnants_of_the_past:block/chiseled_soul_bricks"
+ }
+}

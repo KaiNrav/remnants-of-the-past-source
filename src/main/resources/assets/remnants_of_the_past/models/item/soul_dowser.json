@@ -1,0 +1,26 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "remnants_of_the_past:item/soul_dowser"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "remnants_of_the_past:signal": 0.25
+   },
+   "model": "remnants_of_the_past:item/soul_dowser_left"
+  },
+  {
+   "predicate": {
+    "remnants_of_the_past:signal": 0.5
+   },
+   "model": "remnants_of_the_past:item/soul_dowser_right"
+  },
+  {
+   "predicate": {
+    "remnants_of_the_past:signal": 0.75
+   },
+   "model": "remnants_of_the_past:item/soul_dowser_found"
+  }
+ ]
+}

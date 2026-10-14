@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_crucible"
+    },
+    "title": {
+      "translate": "advancements.remnants.master_smith.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.master_smith.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/first_structure",
+  "rewards": {
+    "experience": 100
+  }
+}

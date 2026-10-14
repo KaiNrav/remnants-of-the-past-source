@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "formed=false": {
+   "model": "remnants_of_the_past:block/reflecting_basin"
+  },
+  "formed=true": {
+   "model": "remnants_of_the_past:block/reflecting_basin_formed"
+  }
+ }
+}

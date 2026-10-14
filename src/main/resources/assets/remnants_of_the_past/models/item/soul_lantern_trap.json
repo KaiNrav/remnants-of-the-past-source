@@ -1,0 +1,14 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "remnants_of_the_past:item/soul_lantern_trap"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "remnants_of_the_past:filled": 1
+   },
+   "model": "remnants_of_the_past:item/soul_lantern_trap_filled"
+  }
+ ]
+}

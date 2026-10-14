@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "lit=false": {
+   "model": "remnants_of_the_past:block/soul_anchor"
+  },
+  "lit=true": {
+   "model": "remnants_of_the_past:block/soul_anchor_lit"
+  }
+ }
+}

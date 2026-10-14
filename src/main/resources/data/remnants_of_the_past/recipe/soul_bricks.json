@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BFB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_bricks",
+    "count": 8
+  }
+}

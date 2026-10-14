@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_astrolabe"
+    },
+    "title": {
+      "translate": "advancements.remnants.star_path.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.star_path.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/first_structure"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G G",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "remnants_of_the_past:condensed_soul"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_crucible",
+    "count": 1
+  }
+}

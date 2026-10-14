@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " F ",
+    "ICI",
+    " B "
+  ],
+  "key": {
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:soul_campfire"
+    },
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_brazier",
+    "count": 1
+  }
+}

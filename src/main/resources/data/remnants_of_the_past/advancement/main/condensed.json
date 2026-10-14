@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:condensed_soul"
+    },
+    "title": {
+      "translate": "advancements.remnants.condensed.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.condensed.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "condensed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:condensed_soul"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/root"
+}

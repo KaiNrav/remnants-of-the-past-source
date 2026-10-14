@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.remnants.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExplosionTreasuryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

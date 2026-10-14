@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "remnants_of_the_past:ossuary",
+      "weight": 3
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_library",
+      "weight": 1
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_desert",
+      "weight": 3
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_library_desert",
+      "weight": 1
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_snowy",
+      "weight": 3
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_library_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "remnants_of_the_past:ossuary_library_jungle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 14,
+    "salt": 41720463
+  }
+}

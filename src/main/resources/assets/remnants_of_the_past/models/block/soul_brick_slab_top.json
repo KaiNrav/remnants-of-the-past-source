@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/slab_top",
+ "textures": {
+  "bottom": "remnants_of_the_past:block/soul_bricks",
+  "top": "remnants_of_the_past:block/soul_bricks",
+  "side": "remnants_of_the_past:block/soul_bricks"
+ }
+}

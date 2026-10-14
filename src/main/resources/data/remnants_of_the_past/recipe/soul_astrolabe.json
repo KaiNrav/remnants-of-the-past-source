@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CGC",
+    "GSG",
+    "CKC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "remnants_of_the_past:condensed_soul"
+    },
+    "K": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_astrolabe",
+    "count": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+ "variants": {
+  "facing=north,open=false,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket"
+  },
+  "facing=north,open=false,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket"
+  },
+  "facing=north,open=true,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket_open"
+  },
+  "facing=north,open=true,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket_open"
+  },
+  "facing=east,open=false,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket",
+   "y": 90
+  },
+  "facing=east,open=false,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket",
+   "y": 90
+  },
+  "facing=east,open=true,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket_open",
+   "y": 90
+  },
+  "facing=east,open=true,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket_open",
+   "y": 90
+  },
+  "facing=south,open=false,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket",
+   "y": 180
+  },
+  "facing=south,open=false,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket",
+   "y": 180
+  },
+  "facing=south,open=true,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket_open",
+   "y": 180
+  },
+  "facing=south,open=true,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket_open",
+   "y": 180
+  },
+  "facing=west,open=false,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket",
+   "y": 270
+  },
+  "facing=west,open=false,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket",
+   "y": 270
+  },
+  "facing=west,open=true,rising=false": {
+   "model": "remnants_of_the_past:block/burial_casket_open",
+   "y": 270
+  },
+  "facing=west,open=true,rising=true": {
+   "model": "remnants_of_the_past:block/burial_casket_open",
+   "y": 270
+  }
+ }
+}

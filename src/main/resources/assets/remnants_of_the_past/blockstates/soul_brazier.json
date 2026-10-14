@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "formed=false": {
+   "model": "remnants_of_the_past:block/soul_brazier"
+  },
+  "formed=true": {
+   "model": "remnants_of_the_past:block/soul_brazier_formed"
+  }
+ }
+}

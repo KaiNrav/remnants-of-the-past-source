@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:scarab_seal"
+    },
+    "title": {
+      "translate": "advancements.remnants.every_land.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.every_land.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "remnants_of_the_past:forgotten_remnant",
+              "nbt": "{Variant:\"drowned\"}"
+            }
+          }
+        ]
+      }
+    },
+    "frozen": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "remnants_of_the_past:forgotten_remnant",
+              "nbt": "{Variant:\"frozen\"}"
+            }
+          }
+        ]
+      }
+    },
+    "sandy": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "remnants_of_the_past:forgotten_remnant",
+              "nbt": "{Variant:\"sandy\"}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/forgotten",
+  "rewards": {
+    "experience": 100
+  }
+}

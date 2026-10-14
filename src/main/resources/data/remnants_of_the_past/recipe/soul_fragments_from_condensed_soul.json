@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "remnants_of_the_past:condensed_soul"
+    }
+  ],
+  "result": {
+    "id": "remnants_of_the_past:soul_fragment",
+    "count": 8
+  }
+}

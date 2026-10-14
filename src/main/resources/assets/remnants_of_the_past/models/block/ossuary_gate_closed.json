@@ -1,0 +1,65 @@
+{
+ "credit": "Remnants of the Past",
+ "parent": "minecraft:block/block",
+ "texture_size": [
+  32,
+  32
+ ],
+ "textures": {
+  "0": "remnants_of_the_past:block/ossuary_gate_closed",
+  "particle": "remnants_of_the_past:block/ossuary_gate_closed"
+ },
+ "elements": [
+  {
+   "from": [
+    0.0,
+    0.0,
+    7.5
+   ],
+   "to": [
+    16.0,
+    16.0,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0.5,
+      0.5,
+      8.5,
+      8.5
+     ],
+     "texture": "#0"
+    },
+    "south": {
+     "uv": [
+      0.5,
+      0.5,
+      8.5,
+      8.5
+     ],
+     "texture": "#0"
+    },
+    "up": {
+     "uv": [
+      0.5,
+      9.5,
+      8.5,
+      10.0
+     ],
+     "texture": "#0"
+    },
+    "down": {
+     "uv": [
+      0.5,
+      11.0,
+      8.5,
+      11.5
+     ],
+     "texture": "#0"
+    }
+   }
+  }
+ ],
+ "ambientocclusion": false
+}

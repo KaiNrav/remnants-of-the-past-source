@@ -1,0 +1,26 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "remnants_of_the_past:item/bone_chakram"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "remnants_of_the_past:inlay": 0.25
+   },
+   "model": "remnants_of_the_past:item/bone_chakram_frost"
+  },
+  {
+   "predicate": {
+    "remnants_of_the_past:inlay": 0.5
+   },
+   "model": "remnants_of_the_past:item/bone_chakram_tide"
+  },
+  {
+   "predicate": {
+    "remnants_of_the_past:inlay": 0.75
+   },
+   "model": "remnants_of_the_past:item/bone_chakram_scarab"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "variants": {
+  "facing=north,tilted=false": {
+   "model": "remnants_of_the_past:block/weathered_gravestone"
+  },
+  "facing=north,tilted=true": {
+   "model": "remnants_of_the_past:block/weathered_gravestone_tilted"
+  },
+  "facing=east,tilted=false": {
+   "model": "remnants_of_the_past:block/weathered_gravestone",
+   "y": 90
+  },
+  "facing=east,tilted=true": {
+   "model": "remnants_of_the_past:block/weathered_gravestone_tilted",
+   "y": 90
+  },
+  "facing=south,tilted=false": {
+   "model": "remnants_of_the_past:block/weathered_gravestone",
+   "y": 180
+  },
+  "facing=south,tilted=true": {
+   "model": "remnants_of_the_past:block/weathered_gravestone_tilted",
+   "y": 180
+  },
+  "facing=west,tilted=false": {
+   "model": "remnants_of_the_past:block/weathered_gravestone",
+   "y": 270
+  },
+  "facing=west,tilted=true": {
+   "model": "remnants_of_the_past:block/weathered_gravestone_tilted",
+   "y": 270
+  }
+ }
+}

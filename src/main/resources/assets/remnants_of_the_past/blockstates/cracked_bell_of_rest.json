@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "remnants_of_the_past:block/cracked_bell_of_rest"
+  },
+  "facing=east": {
+   "model": "remnants_of_the_past:block/cracked_bell_of_rest",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "remnants_of_the_past:block/cracked_bell_of_rest",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "remnants_of_the_past:block/cracked_bell_of_rest",
+   "y": 270
+  }
+ }
+}

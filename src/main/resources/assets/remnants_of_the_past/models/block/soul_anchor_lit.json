@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "side": "remnants_of_the_past:block/soul_anchor_side_lit",
+  "top": "remnants_of_the_past:block/soul_anchor_top_lit",
+  "bottom": "remnants_of_the_past:block/soul_anchor_bottom"
+ }
+}

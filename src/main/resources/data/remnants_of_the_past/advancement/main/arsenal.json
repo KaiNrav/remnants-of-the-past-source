@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_king_arsenal"
+    },
+    "title": {
+      "translate": "advancements.remnants.arsenal.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.arsenal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arsenal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_king_arsenal"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/regicide"
+}

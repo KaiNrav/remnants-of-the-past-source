@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "remnants_of_the_past:block/soul_forge"
+  },
+  "facing=east": {
+   "model": "remnants_of_the_past:block/soul_forge",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "remnants_of_the_past:block/soul_forge",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "remnants_of_the_past:block/soul_forge",
+   "y": 270
+  }
+ }
+}

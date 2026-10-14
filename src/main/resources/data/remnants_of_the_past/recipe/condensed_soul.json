@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "F F",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:condensed_soul",
+    "count": 1
+  }
+}

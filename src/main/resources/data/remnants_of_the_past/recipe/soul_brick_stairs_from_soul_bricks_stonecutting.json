@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "remnants_of_the_past:soul_bricks"
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_brick_stairs",
+    "count": 1
+  }
+}

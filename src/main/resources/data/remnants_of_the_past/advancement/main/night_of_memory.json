@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:bell_of_rest"
+    },
+    "title": {
+      "translate": "advancements.remnants.night_of_memory.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.night_of_memory.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/condensed",
+  "rewards": {
+    "experience": 200
+  }
+}

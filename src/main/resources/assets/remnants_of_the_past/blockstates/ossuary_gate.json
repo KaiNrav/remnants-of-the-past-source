@@ -1,0 +1,32 @@
+{
+ "variants": {
+  "axis=x,open=false,tip=false": {
+   "model": "remnants_of_the_past:block/ossuary_gate_closed"
+  },
+  "axis=x,open=false,tip=true": {
+   "model": "remnants_of_the_past:block/ossuary_gate_tip"
+  },
+  "axis=x,open=true,tip=false": {
+   "model": "remnants_of_the_past:block/ossuary_gate_open"
+  },
+  "axis=x,open=true,tip=true": {
+   "model": "remnants_of_the_past:block/ossuary_gate_open"
+  },
+  "axis=z,open=false,tip=false": {
+   "model": "remnants_of_the_past:block/ossuary_gate_closed",
+   "y": 90
+  },
+  "axis=z,open=false,tip=true": {
+   "model": "remnants_of_the_past:block/ossuary_gate_tip",
+   "y": 90
+  },
+  "axis=z,open=true,tip=false": {
+   "model": "remnants_of_the_past:block/ossuary_gate_open",
+   "y": 90
+  },
+  "axis=z,open=true,tip=true": {
+   "model": "remnants_of_the_past:block/ossuary_gate_open",
+   "y": 90
+  }
+ }
+}

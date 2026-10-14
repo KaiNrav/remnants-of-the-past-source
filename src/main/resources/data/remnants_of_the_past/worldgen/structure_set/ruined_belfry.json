@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "remnants_of_the_past:ruined_belfry",
+      "weight": 2
+    },
+    {
+      "structure": "remnants_of_the_past:belfry_graveyard",
+      "weight": 3
+    },
+    {
+      "structure": "remnants_of_the_past:ruined_belfry_snowy",
+      "weight": 2
+    },
+    {
+      "structure": "remnants_of_the_past:belfry_graveyard_snowy",
+      "weight": 3
+    },
+    {
+      "structure": "remnants_of_the_past:ruined_belfry_desert",
+      "weight": 2
+    },
+    {
+      "structure": "remnants_of_the_past:belfry_graveyard_desert",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 16,
+    "salt": 20261007
+  }
+}

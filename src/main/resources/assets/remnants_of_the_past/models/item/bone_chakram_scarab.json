@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "remnants_of_the_past:item/bone_chakram_scarab"
+ }
+}

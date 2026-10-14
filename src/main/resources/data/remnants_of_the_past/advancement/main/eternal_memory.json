@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:epitaph_niche"
+    },
+    "title": {
+      "translate": "advancements.remnants.eternal_memory.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.eternal_memory.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/first_structure"
+}

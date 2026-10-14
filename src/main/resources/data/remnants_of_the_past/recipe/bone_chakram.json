@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "BIB",
+    "IFI",
+    "BIB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:bone_chakram",
+    "count": 1
+  }
+}

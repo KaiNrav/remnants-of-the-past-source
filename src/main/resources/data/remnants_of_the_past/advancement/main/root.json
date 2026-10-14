@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_fragment"
+    },
+    "title": {
+      "translate": "advancements.remnants.root.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "remnants_of_the_past:textures/block/soul_bricks.png"
+  },
+  "criteria": {
+    "fragment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_fragment"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:epitaph"
+    },
+    "title": {
+      "translate": "advancements.remnants.epitaph.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.epitaph.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "epitaph": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:epitaph"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/laid_to_rest"
+}

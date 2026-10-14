@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "formed=false": {
+   "model": "remnants_of_the_past:block/soul_astrolabe"
+  },
+  "formed=true": {
+   "model": "remnants_of_the_past:block/soul_astrolabe_formed"
+  }
+ }
+}

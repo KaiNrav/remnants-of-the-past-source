@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:burial_casket"
+    },
+    "title": {
+      "translate": "advancements.remnants.grave_robber.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.grave_robber.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "opened": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/dowser"
+}

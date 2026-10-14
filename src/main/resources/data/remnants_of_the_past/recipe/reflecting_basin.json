@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CSC",
+    "BWB",
+    " B "
+  ],
+  "key": {
+    "C": {
+      "item": "remnants_of_the_past:chiseled_soul_bricks"
+    },
+    "S": {
+      "item": "remnants_of_the_past:condensed_soul"
+    },
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:reflecting_basin",
+    "count": 1
+  }
+}

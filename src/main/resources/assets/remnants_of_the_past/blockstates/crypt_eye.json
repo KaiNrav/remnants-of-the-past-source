@@ -1,0 +1,34 @@
+{
+ "variants": {
+  "facing=north,struck=false": {
+   "model": "remnants_of_the_past:block/crypt_eye"
+  },
+  "facing=north,struck=true": {
+   "model": "remnants_of_the_past:block/crypt_eye_struck"
+  },
+  "facing=east,struck=false": {
+   "model": "remnants_of_the_past:block/crypt_eye",
+   "y": 90
+  },
+  "facing=east,struck=true": {
+   "model": "remnants_of_the_past:block/crypt_eye_struck",
+   "y": 90
+  },
+  "facing=south,struck=false": {
+   "model": "remnants_of_the_past:block/crypt_eye",
+   "y": 180
+  },
+  "facing=south,struck=true": {
+   "model": "remnants_of_the_past:block/crypt_eye_struck",
+   "y": 180
+  },
+  "facing=west,struck=false": {
+   "model": "remnants_of_the_past:block/crypt_eye",
+   "y": 270
+  },
+  "facing=west,struck=true": {
+   "model": "remnants_of_the_past:block/crypt_eye_struck",
+   "y": 270
+  }
+ }
+}

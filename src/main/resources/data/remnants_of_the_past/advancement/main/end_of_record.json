@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:archivist_quill"
+    },
+    "title": {
+      "translate": "advancements.remnants.end_of_record.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.end_of_record.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "remnants_of_the_past:archivist"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/into_library",
+  "rewards": {
+    "experience": 300
+  }
+}

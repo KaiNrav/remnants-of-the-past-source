@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_dowser"
+    },
+    "title": {
+      "translate": "advancements.remnants.dowser.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.dowser.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dowser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_dowser"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/root"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BFB",
+    "FCF",
+    "BOB"
+  ],
+  "key": {
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    },
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    },
+    "C": {
+      "item": "remnants_of_the_past:condensed_soul"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_anchor",
+    "count": 1
+  }
+}

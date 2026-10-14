@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remnants_of_the_past:soul_tether"
+      }
+    },
+    "has_mimic_tongue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:mimic_tongue"
+          }
+        ]
+      }
+    },
+    "has_soul_fragment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_fragment"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mimic_tongue",
+      "has_soul_fragment"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remnants_of_the_past:soul_tether"
+    ]
+  }
+}

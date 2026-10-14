@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "remnants_of_the_past:item/mourner_boots"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "cap=false,formed=false": {
+   "model": "remnants_of_the_past:block/soul_chimney"
+  },
+  "cap=false,formed=true": {
+   "model": "remnants_of_the_past:block/soul_chimney_formed"
+  },
+  "cap=true,formed=false": {
+   "model": "remnants_of_the_past:block/soul_chimney_cap"
+  },
+  "cap=true,formed=true": {
+   "model": "remnants_of_the_past:block/soul_chimney_cap_formed"
+  }
+ }
+}

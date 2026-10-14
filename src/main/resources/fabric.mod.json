@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "remnants_of_the_past",
+	"version": "${version}",
+	"name": "Remnants of the Past",
+	"description": "When you die, your gear doesn't hit the floor. It rises as a Remnant: a hostile echo of you wearing your armor and wielding your weapon. Defeat it to get everything back.",
+	"authors": [
+		"KaiNrav"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/remnantsofthepast",
+		"sources": "https://github.com/KaiNrav/remnants-of-the-past-source",
+		"issues": "https://github.com/KaiNrav/remnants-of-the-past-source/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/remnants_of_the_past/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.remnants.RemnantsMod"
+		],
+		"client": [
+			"dev.remnants.client.RemnantsClient"
+		],
+		"fabric-gametest": [
+			"dev.remnants.test.RemnantsGameTest",
+			"dev.remnants.test.CraftingGameTest",
+			"dev.remnants.test.CryptGameTest",
+			"dev.remnants.test.ArchiveGameTest"
+		]
+	},
+	"mixins": [
+		"remnants_of_the_past.mixins.json",
+		{
+			"config": "remnants_of_the_past.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

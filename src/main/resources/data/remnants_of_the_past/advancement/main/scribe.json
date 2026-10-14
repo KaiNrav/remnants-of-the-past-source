@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:archivist_quill"
+    },
+    "title": {
+      "translate": "advancements.remnants.scribe.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.scribe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/end_of_record"
+}

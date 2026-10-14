@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BRB",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    },
+    "R": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "minecraft:soul_campfire"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_hearth",
+    "count": 1
+  }
+}

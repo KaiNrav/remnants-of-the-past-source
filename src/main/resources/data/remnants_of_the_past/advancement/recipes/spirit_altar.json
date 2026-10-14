@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remnants_of_the_past:spirit_altar"
+      }
+    },
+    "has_soul_fragment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_fragment"
+          }
+        ]
+      }
+    },
+    "has_remnant_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:remnant_crown"
+          }
+        ]
+      }
+    },
+    "has_soul_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_bricks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soul_fragment",
+      "has_remnant_crown",
+      "has_soul_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remnants_of_the_past:spirit_altar"
+    ]
+  }
+}

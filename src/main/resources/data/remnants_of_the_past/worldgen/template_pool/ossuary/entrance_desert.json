@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/entrance_desert",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    }
+  ]
+}

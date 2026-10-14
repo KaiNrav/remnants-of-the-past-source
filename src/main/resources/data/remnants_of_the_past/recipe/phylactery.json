@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CGC",
+    "GHG",
+    "CGC"
+  ],
+  "key": {
+    "C": {
+      "item": "remnants_of_the_past:condensed_soul"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "H": {
+      "item": "remnants_of_the_past:soul_king_heart"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:phylactery",
+    "count": 1
+  }
+}

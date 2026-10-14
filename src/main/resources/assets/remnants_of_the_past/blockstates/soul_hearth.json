@@ -1,0 +1,34 @@
+{
+ "variants": {
+  "facing=north,formed=false": {
+   "model": "remnants_of_the_past:block/soul_hearth"
+  },
+  "facing=north,formed=true": {
+   "model": "remnants_of_the_past:block/soul_hearth_formed"
+  },
+  "facing=east,formed=false": {
+   "model": "remnants_of_the_past:block/soul_hearth",
+   "y": 90
+  },
+  "facing=east,formed=true": {
+   "model": "remnants_of_the_past:block/soul_hearth_formed",
+   "y": 90
+  },
+  "facing=south,formed=false": {
+   "model": "remnants_of_the_past:block/soul_hearth",
+   "y": 180
+  },
+  "facing=south,formed=true": {
+   "model": "remnants_of_the_past:block/soul_hearth_formed",
+   "y": 180
+  },
+  "facing=west,formed=false": {
+   "model": "remnants_of_the_past:block/soul_hearth",
+   "y": 270
+  },
+  "facing=west,formed=true": {
+   "model": "remnants_of_the_past:block/soul_hearth_formed",
+   "y": 270
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+  "fallback": "remnants_of_the_past:ossuary/ends",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/corridor_skulls",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/corridor_burial",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/corner",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/junction",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/stairs_down",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/crypt_a",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/crypt_b",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/vault",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/bone_bridge",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/chapel",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants_of_the_past:ossuary/collapsed",
+        "projection": "rigid",
+        "processors": "remnants_of_the_past:ossuary_decay"
+      }
+    }
+  ]
+}

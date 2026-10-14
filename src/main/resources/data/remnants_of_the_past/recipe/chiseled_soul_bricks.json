@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "remnants_of_the_past:soul_brick_slab"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:chiseled_soul_bricks",
+    "count": 1
+  }
+}

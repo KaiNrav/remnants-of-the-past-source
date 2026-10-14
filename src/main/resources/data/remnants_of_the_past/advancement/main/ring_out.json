@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:hand_bell"
+    },
+    "title": {
+      "translate": "advancements.remnants.ring_out.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.ring_out.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "remnants_of_the_past:main/night_of_memory"
+}

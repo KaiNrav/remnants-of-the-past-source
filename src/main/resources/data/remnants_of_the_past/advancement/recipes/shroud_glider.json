@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remnants_of_the_past:shroud_glider"
+      }
+    },
+    "has_wet_shroud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:wet_shroud"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wet_shroud"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remnants_of_the_past:shroud_glider"
+    ]
+  }
+}

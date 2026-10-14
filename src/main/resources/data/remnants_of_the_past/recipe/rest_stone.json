@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CSC",
+    "BFB",
+    "BBB"
+  ],
+  "key": {
+    "C": {
+      "item": "remnants_of_the_past:chiseled_soul_bricks"
+    },
+    "S": {
+      "item": "remnants_of_the_past:condensed_soul"
+    },
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    },
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:rest_stone",
+    "count": 1
+  }
+}

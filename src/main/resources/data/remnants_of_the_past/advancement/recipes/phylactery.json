@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remnants_of_the_past:phylactery"
+      }
+    },
+    "has_condensed_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:condensed_soul"
+          }
+        ]
+      }
+    },
+    "has_soul_king_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_king_heart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_condensed_soul",
+      "has_soul_king_heart"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remnants_of_the_past:phylactery"
+    ]
+  }
+}

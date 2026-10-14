@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "formed=false": {
+   "model": "remnants_of_the_past:block/rest_stone"
+  },
+  "formed=true": {
+   "model": "remnants_of_the_past:block/rest_stone_formed"
+  }
+ }
+}

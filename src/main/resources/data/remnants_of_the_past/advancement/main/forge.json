@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:soul_forge"
+    },
+    "title": {
+      "translate": "advancements.remnants.forge.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.forge.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:soul_forge"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/condensed"
+}

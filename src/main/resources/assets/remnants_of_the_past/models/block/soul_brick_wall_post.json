@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/template_wall_post",
+ "textures": {
+  "wall": "remnants_of_the_past:block/soul_bricks"
+ }
+}

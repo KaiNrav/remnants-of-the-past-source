@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "formed=false": {
+   "model": "remnants_of_the_past:block/chiseled_soul_bricks"
+  },
+  "formed=true": {
+   "model": "remnants_of_the_past:block/chiseled_soul_bricks_formed"
+  }
+ }
+}

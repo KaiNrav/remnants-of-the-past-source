@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " F ",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "F": {
+      "item": "remnants_of_the_past:soul_fragment"
+    },
+    "C": {
+      "item": "remnants_of_the_past:chiseled_soul_bricks"
+    },
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_pedestal",
+    "count": 1
+  }
+}

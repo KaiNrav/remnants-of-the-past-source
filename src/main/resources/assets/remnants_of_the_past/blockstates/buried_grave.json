@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "soil=dirt": {
+   "model": "remnants_of_the_past:block/buried_grave_dirt"
+  },
+  "soil=sand": {
+   "model": "remnants_of_the_past:block/buried_grave_sand"
+  },
+  "soil=red_sand": {
+   "model": "remnants_of_the_past:block/buried_grave_red_sand"
+  },
+  "soil=gravel": {
+   "model": "remnants_of_the_past:block/buried_grave_gravel"
+  }
+ }
+}

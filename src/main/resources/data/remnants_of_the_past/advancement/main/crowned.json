@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "remnants_of_the_past:remnant_crown"
+    },
+    "title": {
+      "translate": "advancements.remnants.crowned.title"
+    },
+    "description": {
+      "translate": "advancements.remnants.crowned.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "remnants_of_the_past:remnant_crown"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "remnants_of_the_past:main/laid_to_rest"
+}

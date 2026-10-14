@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remnants_of_the_past:block/soul_brick_slab"
+    },
+    "type=double": {
+      "model": "remnants_of_the_past:block/soul_bricks"
+    },
+    "type=top": {
+      "model": "remnants_of_the_past:block/soul_brick_slab_top"
+    }
+  }
+}

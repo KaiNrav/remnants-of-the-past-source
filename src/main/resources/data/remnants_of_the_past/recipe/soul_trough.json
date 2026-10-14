@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B B",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "remnants_of_the_past:soul_bricks"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "remnants_of_the_past:soul_trough",
+    "count": 1
+  }
+}

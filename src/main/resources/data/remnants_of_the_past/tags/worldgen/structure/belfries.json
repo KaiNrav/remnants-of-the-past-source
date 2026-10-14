@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "remnants_of_the_past:ruined_belfry",
+    "remnants_of_the_past:ruined_belfry_snowy",
+    "remnants_of_the_past:ruined_belfry_desert",
+    "remnants_of_the_past:belfry_graveyard",
+    "remnants_of_the_past:belfry_graveyard_snowy",
+    "remnants_of_the_past:belfry_graveyard_desert"
+  ]
+}
